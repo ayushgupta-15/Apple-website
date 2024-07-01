@@ -249,4 +249,4 @@ function Model(props) {
 
 export default Model;
 
-useGLTF.preload("Apple-website/models/scene.glb");
+// useGLTF.preload("Apple-website/models/scene.glb");
