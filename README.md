@@ -8,7 +8,6 @@
     <em>HTTP error 401 for prompt `slogan`</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/ayushgupta-15/Apple-website?style=flat&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/ayushgupta-15/Apple-website?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/ayushgupta-15/Apple-website?style=flat&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/ayushgupta-15/Apple-website?style=flat&color=0080ff" alt="repo-language-count">
@@ -47,13 +46,18 @@
 
 ##  Overview
 
-HTTP error 401 for prompt `overview`
+Apple-website is a web application project designed to replicate the look and feel of Apple's official website. It features various sections such as product highlights, promotional videos, and interactive 3D models, providing a rich user experience.
 
 ---
 
 ##  Features
 
-HTTP error 401 for prompt `features`
+
+<li>Responsive Design: Fully responsive design that works seamlessly on all devices.</li>
+<li>Interactive 3D Models: Integration of 3D models using GLB files.</li>
+<li>Video Carousel: A carousel of promotional videos showcasing different Apple products.</li>
+<li>Product Highlights: Detailed product highlight sections with animations.</li>
+<li>Smooth Navigation: Easy and smooth navigation through various sections.</li>
 
 ---
 
@@ -206,13 +210,7 @@ Ensure you have the following dependencies installed on your system:
 git clone https://github.com/ayushgupta-15/Apple-website
 ```
 
-2. Change to the project directory:
-
-```sh
-cd Apple-website
-```
-
-3. Install the dependencies:
+2. Install NPM packages
 
 ```sh
 npm install
@@ -223,17 +221,8 @@ npm install
 Use the following command to run Apple-website:
 
 ```sh
-node app.js
+npm run dev
 ```
-
-###  Tests
-
-To execute tests, run:
-
-```sh
-npm test
-```
-
 ---
 
 ##  Project Roadmap
