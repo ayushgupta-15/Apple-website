@@ -10,8 +10,7 @@ export default defineConfig({
       project: "javascript-react"
     })
   ],
-  base: '/Apple-website/',
-
+  base: './',  // fix asset loading on Vercel
   build: {
     sourcemap: true
   }
